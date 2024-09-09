@@ -254,3 +254,9 @@ footer a {
     height: 20vh;
   }
 }
+
+@media print {
+  iframe {
+    display: none;
+  }
+}
